@@ -1,0 +1,10 @@
+.work-experience-company {
+  text-decoration: none;
+  color: var(--gray-12);
+}
+
+.work-experience-company--is-link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
