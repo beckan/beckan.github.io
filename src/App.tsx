@@ -67,7 +67,7 @@ function App() {
         <Flex direction="column" gap="6">
           <Flex align="center" gap="5">
             <Avatar
-              src="/public/me.jpg"
+              src="/me.jpg"
               fallback="DB"
               size="7"
               variant="soft"
