@@ -77,13 +77,13 @@ const WORK_EXPERIENCES = [
 function App() {
   return (
     <Theme appearance="dark" accentColor="yellow" grayColor="gray">
-      <Container size="2" p="9">
+      <Container size="2" p={{ initial: "4", sm: "9" }}>
         <Flex direction="column" gap="6">
-          <Flex align="center" gap="5">
+          <Flex align="center" gap={{ initial: "4", sm: "6" }}>
             <Avatar
               src="/me.jpg"
               fallback="DB"
-              size="7"
+              size={{ initial: "6", sm: "8" }}
               variant="soft"
               radius="full"
             ></Avatar>

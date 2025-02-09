@@ -6,7 +6,14 @@ interface WorkExperienceRootProps {
   children: ReactNode;
 }
 function WorkExperienceRoot({ children }: WorkExperienceRootProps) {
-  return <Flex gap="5">{children}</Flex>;
+  return (
+    <Flex
+      gap={{ initial: "1", sm: "5" }}
+      direction={{ initial: "column", sm: "row" }}
+    >
+      {children}
+    </Flex>
+  );
 }
 
 interface WorkExperiencePeriodProps {
@@ -16,7 +23,9 @@ interface WorkExperiencePeriodProps {
 function WorkExperiencePeriod({ from, to }: WorkExperiencePeriodProps) {
   return (
     <Flex width="120px" flexShrink="0">
-      {from} - {to}
+      <Text size={{ initial: "2", sm: "3" }}>
+        {from} - {to}
+      </Text>
     </Flex>
   );
 }
