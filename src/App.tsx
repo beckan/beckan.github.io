@@ -23,15 +23,17 @@ const WORK_EXPERIENCES = [
     company: "Göteborgs Stad",
     role: "Frontend Developer",
     link: "https://goteborg.se/",
-    description: "",
-    tags: ["TypeScript", "React", "CI/CD", "WCAG", "Design System"],
+    description:
+      "Focused on developing the city's website and e-services, including a modular design system and WCAG 2.0 accessibility. Working with ReactJS for admin systems, NodeJS for internal tools, and handling code packaging, automated testing, and deployment. Also involved in UX for new service concepts.",
+    tags: ["TypeScript", "ReactJS", "CI/CD", "WCAG", "Design System"],
   },
   {
     period: { from: "2017", to: "2019" },
     company: "NetRelations",
     role: "Frontend Developer",
     link: null,
-    description: "",
+    description:
+      "Development of websites and design systems for mid-sized clients, focusing on modular style guides, optimized code, and WCAG 2.0 accessibility with progressive enhancement.",
     tags: ["WordPress", "WCAG", "Design System"],
   },
   {
@@ -39,7 +41,8 @@ const WORK_EXPERIENCES = [
     company: "Grebban Design AB",
     role: "Fullstack Developer",
     link: "https://www.grebban.com/",
-    description: "",
+    description:
+      "Development of themes for WordPress and WooCommerce, as well as backend development of WordPress plugins, e-commerce platforms, internal web tools, and synchronization applications.",
     tags: ["NodeJS", "PHP", "WordPress", "E-Commerce"],
   },
   {
@@ -47,15 +50,17 @@ const WORK_EXPERIENCES = [
     company: "BLLT Communications",
     role: "Web Developer",
     link: null,
-    description: "",
+    description:
+      "Development of themes for WordPress and WooCommerce, along with backend development of custom solutions, client communication, and support.",
     tags: ["PHP", "WordPress", "E-Commerce"],
   },
   {
     period: { from: "2010", to: "2015" },
-    company: "It-Solutions 4u Sala AB",
+    company: "It-Solutions Sala AB",
     role: "Fullstack Developer",
     link: null,
-    description: "",
+    description:
+      "Backend development in the LAMP stack and frontend in HTML, CSS, and JavaScript. Focus on time reporting systems, webshops, and simple websites. Also experienced in print and web design, project management, and daily client communication and support.",
     tags: ["PHP", "E-Commerce"],
   },
 ];
