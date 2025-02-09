@@ -15,8 +15,17 @@ const WORK_EXPERIENCES = [
     company: "Visiba Care Sverige",
     role: "Frontend Developer",
     link: "https://www.visibagroup.com/",
-    description: "",
-    tags: ["React", "Angular", "TypeScript", "CI/CD", "WCAG", "Design System"],
+    description:
+      "Mainly developing SPAs in a lead role, making architectural decisions with a strong focus on accessibility. Built a custom design system in ReactJS on top of Radix for consistency and quality user experience. Highly involved in UX/UI discussions and responsible for frontend CI/CD. Applications include video calls, time booking, chat messaging, and AI triage.",
+    tags: [
+      "React",
+      "Angular",
+      "TypeScript",
+      "CI/CD",
+      "NX",
+      "WCAG",
+      "Design System",
+    ],
   },
   {
     period: { from: "2019", to: "2021" },
@@ -68,7 +77,7 @@ const WORK_EXPERIENCES = [
 function App() {
   return (
     <Theme appearance="dark" accentColor="yellow" grayColor="gray">
-      <Container size="1" p="9">
+      <Container size="2" p="9">
         <Flex direction="column" gap="6">
           <Flex align="center" gap="5">
             <Avatar
@@ -90,12 +99,12 @@ function App() {
             <Section.Content>
               <Flex direction="column" gap="3">
                 <Text as="p" size="3">
-                  I'm a 35 years old frontend developer based in Gothenburg,
-                  Sweden. My passion is useability, accessibility and inclusive
-                  design. Applications and websites is there to be used, not
-                  only looked at. The magic happens when beautiful design meets
-                  a great user experience that includes as many people as
-                  possible.
+                  I'm a 35-year-old frontend developer based in Gothenburg,
+                  Sweden, with a passion for usability, accessibility, and
+                  inclusive design. I believe applications and websites are
+                  meant to be used, not only looked at. The magic happens when
+                  beautiful design meets a great user experience that welcomes
+                  everyone ❤️🌍
                 </Text>
               </Flex>
             </Section.Content>
