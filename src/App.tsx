@@ -16,7 +16,7 @@ const WORK_EXPERIENCES = [
     role: "Frontend Developer",
     link: "https://www.visibagroup.com/",
     description:
-      "Mainly developing SPAs in a lead role, making architectural decisions with a strong focus on accessibility. Built a custom design system in ReactJS on top of Radix for consistency and quality user experience. Highly involved in UX/UI discussions and responsible for frontend CI/CD. Applications include video calls, time booking, chat messaging, and AI triage.",
+      "Mainly developing SPAs in a lead role, making architectural decisions with a strong focus on accessibility. Built a custom design system in React on top of Radix for consistency and quality user experience. Highly involved in UX/UI discussions and responsible for frontend CI/CD. Applications include video calls, time booking, chat messaging, and AI triage.",
     tags: [
       "React",
       "Angular",
@@ -33,8 +33,8 @@ const WORK_EXPERIENCES = [
     role: "Frontend Developer",
     link: "https://goteborg.se/",
     description:
-      "Focused on developing the city's website and e-services, including a modular design system and WCAG 2.0 accessibility. Working with ReactJS for admin systems, NodeJS for internal tools, and handling code packaging, automated testing, and deployment. Also involved in UX for new service concepts.",
-    tags: ["TypeScript", "ReactJS", "CI/CD", "WCAG", "Design System"],
+      "Focused on developing the city's website and e-services, including a modular design system and WCAG 2.0 accessibility. Working with React for admin systems, NodeJS for internal tools, and handling code packaging, automated testing, and deployment. Also involved in UX for new service concepts.",
+    tags: ["TypeScript", "React", "CI/CD", "WCAG", "Design System"],
   },
   {
     period: { from: "2017", to: "2019" },
@@ -76,7 +76,7 @@ const WORK_EXPERIENCES = [
 
 function App() {
   return (
-    <Theme appearance="light" accentColor="yellow" grayColor="gray">
+    <Theme appearance="dark" accentColor="yellow" grayColor="gray">
       <Container size="2" p={{ initial: "4", sm: "9" }}>
         <Flex direction="column" gap="6">
           <Flex align="center" gap={{ initial: "4", sm: "6" }}>
