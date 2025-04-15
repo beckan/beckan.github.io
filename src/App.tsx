@@ -20,9 +20,9 @@ const WORK_EXPERIENCES = [
     tags: [
       "HTML",
       "CSS",
+      "TypeScript",
       "React",
       "Angular",
-      "TypeScript",
       "DX",
       "CI/CD",
       "NX",
