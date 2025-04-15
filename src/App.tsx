@@ -16,7 +16,7 @@ const WORK_EXPERIENCES = [
     role: "Frontend Developer",
     link: "https://www.visibagroup.com/",
     description:
-      "Mainly developing SPAs in a lead role, making architectural decisions with a strong focus on accessibility. Built a custom design system in React on top of Radix for consistency and quality user experience. Highly involved in UX/UI discussions and responsible for frontend CI/CD. Applications include video calls, time booking, chat messaging, and AI triage.",
+      "Mainly developing SPAs in a lead role, making architectural decisions with a strong focus on accessibility. Built a custom design system in React on top of Radix for consistency and quality user experience. Highly involved in UX/UI discussions and responsible for frontend CI/CD and DX. Applications include video calls, time booking, chat messaging, and AI triage.",
     tags: [
       "HTML",
       "CSS",
