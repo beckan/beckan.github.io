@@ -11,7 +11,27 @@ import { WorkExperience } from "./components/work-experience.component";
 
 const WORK_EXPERIENCES = [
   {
-    period: { from: "2021", to: "present" },
+    period: { from: "2025", to: "current" },
+    company: "Planima AB",
+    role: "Senior Frontend Developer",
+    link: "https://www.planima.se/",
+    description:
+      "Leading the frontend strategy and development of a new SaaS platform for property management. Focusing on building a scalable and maintainable architecture using React and TypeScript, while ensuring high performance and accessibility standards. Collaborating closely with UX/UI designers to create an intuitive user experience.",
+    tags: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "JavaScript",
+      "Ruby on Rails",
+      "Hotwire",
+      "Ruby",
+      "React",
+      "DX",
+      "Design System",
+    ],
+  },
+  {
+    period: { from: "2021", to: "2025" },
     company: "Visiba Care Sverige",
     role: "Frontend Developer",
     link: "https://www.visibagroup.com/",
