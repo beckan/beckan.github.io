@@ -78,7 +78,7 @@ function WorkExperienceTags({ tags }: WorkExperienceTagsProps) {
   return (
     <Flex gap="1" wrap="wrap" mt="1">
       {tags.map((tag, i) => (
-        <Text size="1" color="gray" key={tag}>
+        <Text size="1" color="gray" key={tag} className="work-experience-tag">
           {tag}
           {i < tags.length - 1 ? " • " : ""}
         </Text>

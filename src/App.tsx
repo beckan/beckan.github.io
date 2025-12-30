@@ -8,6 +8,7 @@ import {
 } from "@radix-ui/themes";
 import { Section } from "./components/section.component";
 import { WorkExperience } from "./components/work-experience.component";
+import dayjs from "dayjs";
 
 const WORK_EXPERIENCES = [
   {
@@ -131,7 +132,7 @@ function App() {
               <Heading as="h1" size="5" weight="medium">
                 Daniel Bäckström
               </Heading>
-              <Text size="2">Frontend Developer</Text>
+              <Text size="2">Senior Frontend Developer</Text>
             </Flex>
           </Flex>
           <Section.Root>
@@ -139,7 +140,7 @@ function App() {
             <Section.Content>
               <Flex direction="column" gap="3">
                 <Text as="p" size="3">
-                  I'm a 35-year-old frontend developer based in Gothenburg,
+                  I'm a {dayjs().diff("1990-02-07", "year")}-year-old frontend developer based in Gothenburg,
                   Sweden, with a passion for usability, accessibility, and
                   inclusive design. I believe applications and websites are
                   meant to be used, not only looked at. The magic happens when
