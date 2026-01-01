@@ -11,7 +11,7 @@ function SectionRoot({ children }: { children: ReactNode }) {
 
 function SectionHeading({ children }: { children: ReactNode }) {
   return (
-    <Heading as="h2" size="3" weight="medium">
+    <Heading as="h2" size={{ initial: "5", sm: "6" }} weight="light" mb={{ initial: "3", sm: "4" }}>
       {children}
     </Heading>
   );

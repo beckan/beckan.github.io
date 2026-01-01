@@ -119,7 +119,7 @@ function App() {
   return (
     <Theme appearance="dark" accentColor="yellow" grayColor="gray">
       <Container size="2" p={{ initial: "4", sm: "9" }}>
-        <Flex direction="column" gap="6">
+        <Flex direction="column" gap={{ initial: "6", sm: "8" }}>
           <Flex align="center" gap={{ initial: "4", sm: "6" }}>
             <Avatar
               src="/me.jpg"
@@ -141,11 +141,9 @@ function App() {
               <Flex direction="column" gap="3">
                 <Text as="p" size="3">
                   I'm a {dayjs().diff("1990-02-07", "year")}-year-old frontend developer based in Gothenburg,
-                  Sweden, with a passion for usability, accessibility, and
-                  inclusive design. I believe applications and websites are
-                  meant to be used, not only looked at. The magic happens when
-                  beautiful design meets a great user experience that welcomes
-                  everyone ❤️🌍
+                  Sweden, with a passion for usability, accessibility, and inclusive design. 
+                  I believe applications and websites are built for interaction, not just for show. 
+                  The magic happens when beautiful design meets a great user experience that welcomes everyone ❤️🌍
                 </Text>
               </Flex>
             </Section.Content>
@@ -154,7 +152,6 @@ function App() {
             <Section.Heading>Work Experience</Section.Heading>
             <Section.Content>
               <Flex direction="column" gap="6">
-                <span></span>
                 {WORK_EXPERIENCES.map((workExperience) => (
                   <WorkExperience.Root key={workExperience.company}>
                     <WorkExperience.Period
